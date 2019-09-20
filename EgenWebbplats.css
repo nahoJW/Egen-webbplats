@@ -1,64 +1,57 @@
-body {background-color: #FF7F50;}
+body {background-color: #FF7F50;}/*ändrar bakgrundsfärg för hemsidan*/
 h1 {
   color: white;
-}
-h1 {color: white;}
-
+}/*Text i h1 blir vit*/
 
 .topnav {
-  background-color: black;
-  overflow: hidden;
+  background-color: black;/*ger menyn svart backgrundsfärg*/
+  overflow: hidden;/*gör att menyn in går in i reten av sidan*/
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: white;
-  text-align: left;
-  padding: 20px 25px;
-  text-decoration: none;
-  font-size: 17px;
+.topnav a {/*Ändrar usende på länkarna i menyn*/
+  float: left;/*Sätter läknarna åt vänster*/
+  color: white;/*Textfärgen blir vit*/
+  padding: 20px 25px;/*Besämmer meny storlek*/
+  text-decoration: none;/*Tar bort understäck*/
+  font-size: 17px;/*Text storlek*/
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: white;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: #A9A9A9;
+  background-color: #A9A9A9;/*Ändrar färg på läken man håller musen över*/
 }
 
 
 table {
-  width:70%;
+  width:70%;/*Bestämmer tabbel bredd*/
 }
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+  border: 1px solid black;/*Skapar en kant på tabbelen*/
+  border-collapse: collapse;/*Sätter ihop kanterna*/
 }
 th, td {
-  padding: 15px;
-  text-align: left;
+  padding: 15px;/*Bestämmer höjd på tabbelen*/
+  text-align: left;/*Lägger text åt vänster*/
 }
 tbody tr:nth-child(even) {
-  background-color: #ADD8E6;
+  background-color: #ADD8E6;/*Jämna rader i tabbellen får en färg*/
 }
 tbody tr:nth-child(odd) {
- background-color: blue;
+ background-color: blue;/*Icke jämna rader i tabbellen får en färg*/
 }
 
 thead th {
-  background-color: #202;
-  color: white;
+  background-color: #202;/*Övre delen av tabbelen byter bakgrundsfärg*/
+  color: white;/*Övre delen av tabbelen byter textfärg*/
 }
-.textC {
-    text-align: Center;
+tr td:nth-child(2){
+    text-align: Center;/*Text i andra denlen av tabbelen flyttas till mitten*/
+}
+tr td:nth-child(3){
+    text-align: right;/*Text i tredje denlen av tabbelen flyttas till höger*/
+
 }
 caption{
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: bold;/*Fetstil på rubrik*/
+  font-size: 25px;/*Ändtar storlek på rubrik*/
 }
 
